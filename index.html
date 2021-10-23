@@ -1,0 +1,348 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.0.4/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    <title>Gan Chan</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,700&display=swap');
+
+        :root {
+            --main-color: #BB86FC;
+            --secondary: #1e1e1e;
+            --main-bg: #121212;
+        }
+
+        .color-primary { color: var(--main-color) !important; }
+        .bg-primary { background-color: var(--main-color) !important; }
+        .btn-primary { background-color: var(--main-color) !important; }
+        .bg-secondary { background-color: var(--secondary) !important; }
+        .text-bold { font-weight: 700; }
+        .text-bolder { font-weight: 900; }
+        .mt-5 { margin-top: 128px !important; } .mb-5 { margin-bottom: 128px !important; }
+        h1, h2, h3, h4, h4 {
+            font-weight: 700;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--main-bg);
+            color: white !important;
+        }
+        #slideshow {
+            border-radius: 16px;
+        }
+        section {
+            /* height: 100vh; */
+        }
+
+        .center {
+            display:flex; 
+            justify-content:center;
+            align-items:center;
+            /* height: 100vh; */
+        }
+
+        .btn {
+            background-color: var(--main-color);
+            padding: 12px 32px;
+            color: white;
+            font-weight: 700;
+            border: 1px solid var(--main-color);
+        }
+
+        .btn:hover {
+            background-color: var(--main-bg) !important;
+            color: var(--main-color);
+            border: 1px solid var(--main-color);
+        }
+
+        .showcase {
+            border-radius: 8px;
+            margin: 16px;
+        }
+
+        .explore {
+            background-color: #1e1e1e;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 32px;
+        }
+
+        .greeting {
+            font-size: 32px;
+        }
+
+        .explore-border {
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+        }
+        input {
+            background-color: transparent;
+            padding: 16px;
+            color: white;
+        }
+        .explore-value { font-size: 32px; }
+
+        .card { 
+            display :inline-block;
+            background-color: transparent;
+            padding: 24px;
+            margin: 4px;
+        }
+        .explore-image {
+            border-radius: 8px;
+        }
+
+        .meet-sakyu {
+            max-width:100%;
+            max-height:100%;
+        }
+
+        footer {
+            padding: 16px;
+        }
+        .links {
+            display: inline-block;
+            margin: 8px;
+        }
+
+        .inner {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .header {
+            margin: 32px 0;
+        }
+
+        img {
+            border-radius: 16px;
+        }
+
+        /* .icon:hover {
+            fill: var(--main-color);
+        } */
+    </style>
+</head>
+<body>
+
+    <div id="app">
+        <div class="container">
+        <section class="header">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="center">
+                        <div class="mt-5"> 
+                            <h5 class="text-bold color-primary">Gan Chan</h5>
+                            <h1 class="text-bolder">
+                                Gan Chan is the latest and Anime NFT on
+                                the Polygon Network! 
+                            </h1>
+
+                            <div>
+                                Buy a clearer larger resolution Gan Chan on OpenSea, or check out 
+                                our Twitter for the latest releases and giveaway!
+                            </div>
+                            <a class="btn" href="https://opensea.io/collection/gan-chan" role="button" target="_blank">OpenSea</a>
+                            <a class="btn" href="https://twitter.com/NFTGanChans/status/1449866946334265346" role="button" target="_blank">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div data-aos="fade-up">
+                        <div class="mt-5 mb-5">
+                            <img class="img-fluid" id="slideshow" :src="currentImg" data-aos="zoom-in"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5 mb-5">
+            <div class="row">
+                <div v-for="item in showcase" class="col-md-3">
+                    <img class="img-fluid mb-4" data-aos="fade-up" :src="'https://lh3.googleusercontent.com/' + item.image" />
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="meet-sakyu" data-aos="fade-up-right" src="assets/sakyu_adult.png">
+                </div>
+                <div class="col-md-6">
+                    <h2>Meet Sakyu</h2>
+                    <div>
+                        Sakyu Gan is the representative of Gan Chans. She is the first
+                        AI generated Gan. She is the most trusted sister out of the Gan Chan
+                        and the most intelligent. She currently resides in Japan,
+                    </div>
+
+                    For our release of Gan Chan, we are offering exclusive Sakyu Gan NFT for free. I graditude for the supporting us!
+                    Instructions to get one are in the tweet below.
+                    <div>
+                        <a class="btn btn-primary mt-3" href="https://twitter.com/NFTGanChans/status/1449866946334265346" role="button" target="_blank">Tweet</a>
+                        <a class="btn btn-primary mt-3" :href="'https://opensea.io/assets/matic/' + explore.ganChan.external_url" role="button" target="_blank">OpenSea</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-center">Explore</h2>
+
+                    <div class="container explore">                        
+                        <input class="w-100 explore-border explore-input" v-model="explore.input" type="text" placeholder="Enter Id or Name">
+
+                        <div class="greeting text-center mt-3 mb-3">{{ explore.greeting }} I'm {{ explore.ganChan.name }}!</div>
+                        <div class="card explore-border" v-for="item in explore.ganChan.attributes">
+                            <span>
+                                <div class="color-primary text-capitalize">{{ item.trait_type }}</div>
+                                <div class="explore-value text-bold">{{ item.value }}</div>
+                            </span>
+                        </span>
+                    </div>
+                        <div>
+                            Current Price: 0.025 ETH
+                            <a class="btn btn-primary w-100 mt-3" :href="'https://opensea.io/assets/matic/' + explore.ganChan.external_url" role="button" target="_blank">View on OpenSea</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="m-5">
+                        <img class="img-fluid explore-image" :src="'https://lh3.googleusercontent.com/' + explore.ganChan.image" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="meet-sakyu" data-aos="fade-up-right" src="assets/tsuki.png">
+                </div>
+                <div class="col-md-6">
+                    <h2>RoadMap</h2>
+                    <div class="mt-3 mb-4" v-for="goal in roadmap">
+                        <h4 class="text-bold"><span class="color-primary">{{ goal.percent }}%</span> Sold</h4>
+                        <div>{{ goal.text }}</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <footer class="">
+            <div class="links" v-for="link in links">
+                <a :href="link.url" target="_blank">
+                    <img class="icon" :src="link.icon" height="40" />
+                </a>
+            </div>
+        </footer>
+      </div>
+
+    <script src="https://unpkg.com/aos@2.0.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 300,
+            duration: 1000,
+            once: false,
+        });
+    </script>
+    <script>      
+        var app = new Vue({
+            el: '#app',
+            data: {
+                imgPrefix: "https://lh3.googleusercontent.com/",
+                metadata: [],
+                showcase: [],
+                currentIndex: 0,
+                currentImg: "",
+
+                explore: {
+                    input: "",
+                    greetingList: [
+                        "It’s nice to meet you.",
+                        "It’s a pleasure to meet you.",
+                        "Hello.",
+                        "It’s great to see you.",
+                        "Hello stranger!"
+                    ],
+                    greeting: "",
+                    ganChan: {
+                        name: "",
+                        external_url: "",
+                        image: "",
+                        attributes: [], // [{ trait_type, value }]
+                    },
+                },
+
+                roadmap: [
+                    { percent: 20, text: "Minting 50% (128) of Gan Chans collection for. Gan Chan Giveaway and ETH Giveaway" },
+                    { percent: 40, text: "Minting all 256 Gan Chans for sale price of 0.025 ETH" },
+                    { percent: 60, text: "Massive Gan Chan giveaway! (To be announced)" },
+                    { percent: 80, 
+                      text: "Donating 20% of earning to charity of choosing. Choosen on Twitter." },
+                    { percent: 100, 
+                      text: "Total 256 hand picked anime NFT released on OpenSea. We thank you very much for helping us reach this far. We will also be giving away 2 ETH. This is not the end! Gan Chan have more features, and updates to continue to spreading the love and positivity." 
+                    },
+                ],
+
+                links: [
+                    { url: "https://opensea.io/collection/gan-chan", icon: "assets/opensea.svg" },
+                    { url: "https://twitter.com/NFTGanChans", icon: "assets/twitter.svg" },
+                    { url: "https://www.reddit.com/user/Gan-Chan", icon: "assets/reddit.svg" }
+                ]
+            },
+            mounted: async function() {
+                let req = await fetch("assets/metadata.json");
+                this.metadata = await req.json();
+
+                this.startSlide();
+
+                for(i of [...Array(8).keys()]) {
+                    console.log(this.metadata[Math.floor(Math.random()*this.metadata.length)]);
+                    this.showcase.push(this.metadata[Math.floor(Math.random()*this.metadata.length)])
+                }
+
+                this.explore.ganChan = this.showcase[0];
+            },
+            methods: {
+                startSlide: function() {
+                    setInterval(this.next, 1000);
+                },
+                next: function() {
+                    this.currentImg = this.imgPrefix + this.metadata[Math.floor((Math.random() * this.metadata.length-1) + 1)].image
+                },
+            },
+            computed: { },
+            watch: {
+                // Can't use () => {} in watcher
+                'explore.input': function(newVal, oldVal) {
+
+                    let found = false
+                    for(let i of this.metadata) {
+                        console.log(`${newVal == i.id}`);
+                        if(i.id == newVal || i.name.toLowerCase().includes(newVal.toLowerCase())) {
+                            found = true;
+                            this.explore.greeting = this.explore.greetingList[Math.floor(Math.random()*this.explore.greetingList.length)];
+                            this.explore.ganChan = i;
+                            break;
+                        }
+                    }
+                    
+                }
+            }
+        })
+    </script>
+</body>
+</html>
