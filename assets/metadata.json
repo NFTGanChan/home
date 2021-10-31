@@ -1,464 +1,3248 @@
 [
     {
-        "id": "10",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #10 (out of 32) <br> Overall: **#10** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225956220781461505",
-        "image": "iAEipthI_qBn9DJdEu19UF6oOxXsRJHbkpynWYG_8SMoYii05mRyuI_uB_SEZ-CaxrxlQbqE-zgBvPN3ZoSAzDwMGVWmwY3LFMV7UA",
-        "name": "Kawana Gan",
+        "id": "100",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #100 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226060674386100225",
+        "image": "assets/100_ichika_child.png",
+        "name": "Ichika Gan (Child)",
         "attributes": [
             {
-                "trait_type": "openness",
-                "value": "Consistent"
+                "trait_type": "Openness",
+                "value": "Cautious"
             },
             {
-                "trait_type": "conscientiousness",
-                "value": "Careless"
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Solitary"
             },
             {
-                "trait_type": "agreeableness",
-                "value": "Detached"
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
                 "value": "Secure"
             }
         ]
     },
     {
-        "id": "11",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #11 (out of 32) <br> Overall: **#11** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225959519316344833",
-        "image": "6eJKEhR_kEGJBcVE-zxOa_JuNjnZVjWmSKZqDhsdEu3wI06mkSmuzOJ_3DGEWX3ZnaOpE8Et-nHuq5HQeA9hcUidHN5KTqyBm2oP9w",
-        "name": "Seina Gan",
+        "id": "101",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #101 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226061773897728001",
+        "image": "assets/101_yeaji.png",
+        "name": "Yeaji Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
                 "value": "Cautious"
             },
             {
-                "trait_type": "conscientiousness",
-                "value": "Efficient"
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "102",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #102 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226062873409355777",
+        "image": "assets/102_hiroto.png",
+        "name": "Hiroto Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "103",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #103 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226063972920983553",
+        "image": "assets/103_kana.png",
+        "name": "Kana Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "104",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #104 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226065072432611329",
+        "image": "assets/104_kazue.png",
+        "name": "Kazue Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
                 "value": "Reserved"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "105",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #105 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226066171944239105",
+        "image": "assets/105_karen.png",
+        "name": "Karen Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "106",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #106 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226067271455866881",
+        "image": "assets/106_kai.png",
+        "name": "Kai Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "107",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #107 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226068370967494657",
+        "image": "assets/107_momoe.png",
+        "name": "Momoe Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "108",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #108 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226069470479122433",
+        "image": "assets/108_maiko.png",
+        "name": "Maiko Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
                 "value": "Friendly"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "109",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #109 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226070569990750209",
+        "image": "assets/109_luna.png",
+        "name": "Luna Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #10 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225956220781461505",
+        "image": "assets/10_kawana.png",
+        "name": "Kawana Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "110",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #110 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226071669502377985",
+        "image": "assets/110_chika.png",
+        "name": "Chika Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "111",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #111 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226072769014005761",
+        "image": "assets/111_shin.png",
+        "name": "Shin Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "112",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #112 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226073868525633537",
+        "image": "assets/112_suzu.png",
+        "name": "Suzu Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #11 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225959519316344833",
+        "image": "assets/11_seina.png",
+        "name": "Seina Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
                 "value": "Confident"
             }
         ]
     },
     {
         "id": "12",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #12 (out of 32) <br> Overall: **#12** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225958419804717057",
-        "image": "vYP_XpXtxHGpmsFFsbMy1x5aHDQtc4BN7mO9qgfInX8crC19_2am6e9wN0oOTGeYMrMf0kxlt3FQZX6qURLWvOv9_AzHcDKYjp8z",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #12 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225958419804717057",
+        "image": "assets/12_cheri.png",
         "name": "Cheri Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
                 "value": "Curious"
             },
             {
-                "trait_type": "conscientiousness",
+                "trait_type": "Conscientiousness",
                 "value": "Careless"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Reserved"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
                 "value": "Compassionate"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
                 "value": "Confident"
             }
         ]
     },
     {
         "id": "13",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #13 (out of 32) <br> Overall: **#13** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225961718339600385",
-        "image": "F5IVDsX_R16WdzhGEAG526VCgeBZsoQDYQftrhS8RaCnWYEinbLvNUv-q0yF4hgpKXGE-psBJYgc4eUssDe-2M3z-8jie7REKFUw",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #13 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225961718339600385",
+        "image": "assets/13_yeona.png",
         "name": "Yeona Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
                 "value": "Curious"
             },
             {
-                "trait_type": "conscientiousness",
+                "trait_type": "Conscientiousness",
                 "value": "Organised"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Outgoing"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
                 "value": "Friendly"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
                 "value": "Secure"
             }
         ]
     },
     {
         "id": "14",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #14 (out of 32) <br> Overall: **#14** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225962817851228161",
-        "image": "XICwo5c12HWl19TFcjpHb9QaEyHnPe9QaMAmhLjIi2HshrohIAWGyfRVF7J6dTTE629sMokBDJBPAXoLY07INDOeMRloUnyue387YQ",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #14 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225962817851228161",
+        "image": "assets/14_akame.png",
         "name": "Akame Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
                 "value": "Consistent"
             },
             {
-                "trait_type": "conscientiousness",
+                "trait_type": "Conscientiousness",
                 "value": "Efficient"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Reserved"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
                 "value": "Friendly"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
                 "value": "Secure"
             }
         ]
     },
     {
         "id": "15",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #15 (out of 32) <br> Overall: **#15** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225963917362855937",
-        "image": "jPVIlJp3HQIyzr6xe1CGU0ATohBMOt1vY9Lmfv1J-48s3FMyTjBkT6-PNBzycRJ-3kx8WdWkIbKpnnaJywWK7HANNyt1wtQLvUc-Jw",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #15 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225963917362855937",
+        "image": "assets/15_ena.png",
         "name": "Ena Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
                 "value": "Curious"
             },
             {
-                "trait_type": "conscientiousness",
+                "trait_type": "Conscientiousness",
                 "value": "Careless"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Outgoing"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
                 "value": "Friendly"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
                 "value": "Confident"
             }
         ]
     },
     {
         "id": "16",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #16 (out of 32) <br> Overall: **#16** <br>",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #16 <br>",
         "external_url": "",
-        "image": "",
+        "image": "assets/16_sakyu.png",
         "name": "Sakyu Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
                 "value": "Cautious"
             },
             {
-                "trait_type": "conscientiousness",
+                "trait_type": "Conscientiousness",
                 "value": "Easy-going"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Reserved"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
                 "value": "Friendly"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
                 "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #17 <br>",
+        "external_url": "",
+        "image": "assets/17_majo.png",
+        "name": "Majo Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #18 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225966116386111489",
+        "image": "assets/18_sayaka.png",
+        "name": "Sayaka Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #19 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225967215897739265",
+        "image": "assets/19_seiji.png",
+        "name": "Seiji Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
             }
         ]
     },
     {
         "id": "1",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #1 (out of 32) <br> Overall: **#1** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225948524200067073",
-        "image": "0NQ-a55nvB_M8-zLl-ocvZhe35OnKYpBj46Gy5zd4NHSYNhIyWHLkXu2VB-Xl8WHj4v0P9ltSX2m4g2l2jkWIVHvv25SZJWdJk8E",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #1 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225948524200067073",
+        "image": "assets/1_sakyu_child.png",
         "name": "Sakyu Gan (Child)",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
                 "value": "Cautious"
             },
             {
-                "trait_type": "conscientiousness",
+                "trait_type": "Conscientiousness",
                 "value": "Easy-going"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Energetic"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
                 "value": "Friendly"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
                 "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #20 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225968315409367041",
+        "image": "assets/20_sakyu_dye_brown.png",
+        "name": "Sakyu Gan (Dye Brown)",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #21 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225969414920994817",
+        "image": "assets/21_sekkai.png",
+        "name": "Sekkai Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #22 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225970514432622593",
+        "image": "assets/22_miyu.png",
+        "name": "Miyu Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #23 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225971613944250369",
+        "image": "assets/23_rei.png",
+        "name": "Rei Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #24 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225972713455878145",
+        "image": "assets/24_kimi.png",
+        "name": "Kimi Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "25",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #25 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225973812967505921",
+        "image": "assets/25_asuna.png",
+        "name": "Asuna Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "26",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #26 <br>",
+        "external_url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/971463808751771899215493340564517295695129641530383849266225954021758205953",
+        "image": "assets/26_akari.png",
+        "name": "Akari Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "27",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #27 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225974912479133697",
+        "image": "assets/27_nyan.png",
+        "name": "Nyan Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "28",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #28 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225976011990761473",
+        "image": "assets/28_ayano.png",
+        "name": "Ayano Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "29",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #29 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225977111502389249",
+        "image": "assets/29_aiko.png",
+        "name": "Aiko Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
             }
         ]
     },
     {
         "id": "2",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #2 (out of 32) <br> Overall: **#2** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225957320293089281",
-        "image": "bzAq1KW0KLzZqh-T_eygigPml7VoIcH1tn5_tfe7z5gyVoWZJ8RL3KDD9H33jO10iwmxiw9VUjVe9Zz-mfIrqOfOC5EDn_niY0Hd8w",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #2 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225957320293089281",
+        "image": "assets/2_ibui.png",
         "name": "Ibui Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
                 "value": "Curious"
             },
             {
-                "trait_type": "conscientiousness",
+                "trait_type": "Conscientiousness",
                 "value": "Careless"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Energetic"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
                 "value": "Friendly"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
                 "value": "Secure"
             }
         ]
     },
     {
-        "id": "3",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #3 (out of 32) <br> Overall: **#3** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225951822734950401",
-        "image": "_6vVqmjzI-N67-234DnGqMU-DWmMzUA1JaAb2y3p19m_TUteSIWxMYtDh7VTKFcpeQ0GbCVCjcc3_x5FLlxKVEaQmdqjXLdncDsd-lc",
-        "name": "Kuro Gan",
+        "id": "30",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #30 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225978211014017025",
+        "image": "assets/30_mihoko.png",
+        "name": "Mihoko Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "31",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #31 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225979310525644801",
+        "image": "assets/31_minato.png",
+        "name": "Minato Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
                 "value": "Consistent"
             },
             {
-                "trait_type": "conscientiousness",
-                "value": "Careless"
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Reserved"
             },
             {
-                "trait_type": "agreeableness",
-                "value": "Challenging"
+                "trait_type": "Agreeableness",
+                "value": "Detached"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "32",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #32 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225980410037272577",
+        "image": "assets/32_shizuka.png",
+        "name": "Shizuka Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
                 "value": "Sensitive"
             }
         ]
     },
     {
-        "id": "4",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #4 (out of 32) <br> Overall: **#4** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225949623711694849",
-        "image": "NhTaQk65RJJTuJAm_CLZzHyBq4-Jd3XiK7RVAbTQXua5oK4DYrlEiqfrH2QiMpoRuBWqgtGTWK-QWFygadb5YKLhSW87A-5WsNgs",
-        "name": "Ane Gan",
+        "id": "33",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #33 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226002400269828097",
+        "image": "assets/33_sara.png",
+        "name": "Sara Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "34",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #34 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226003499781455873",
+        "image": "assets/34_yuri_dye.png",
+        "name": "Yuri Gan (Dye)",
+        "attributes": [
+            {
+                "trait_type": "Openness",
                 "value": "Consistent"
             },
             {
-                "trait_type": "conscientiousness",
+                "trait_type": "Conscientiousness",
                 "value": "Easy-going"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "35",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #35 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225983708572155905",
+        "image": "assets/35_yua.png",
+        "name": "Yua Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "36",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #36 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225984808083783681",
+        "image": "assets/36_kano.png",
+        "name": "Kano Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
                 "value": "Reserved"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
                 "value": "Detached"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "37",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #37 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225985907595411457",
+        "image": "assets/37_mie.png",
+        "name": "Mie Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "38",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #38 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225987007107039233",
+        "image": "assets/38_glacia.png",
+        "name": "Glacia Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "39",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #39 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225988106618667009",
+        "image": "assets/39_samui.png",
+        "name": "Samui Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #3 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225951822734950401",
+        "image": "assets/3_kuro.png",
+        "name": "Kuro Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "40",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #40 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225989206130294785",
+        "image": "assets/40_yeona_head_title_smile.png",
+        "name": "Yeona Gan (Head Title Smile)",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "41",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #41 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225990305641922561",
+        "image": "assets/41_skayu_yellow_dye.png",
+        "name": "Skayu Gan (Yellow Dye)",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "42",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #42 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225991405153550337",
+        "image": "assets/42_nymphia.png",
+        "name": "Nymphia Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "43",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #43 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225992504665178113",
+        "image": "assets/43_ran.png",
+        "name": "Ran Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "44",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #44 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225993604176805889",
+        "image": "assets/44_jun.png",
+        "name": "Jun Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "45",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #45 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225994703688433665",
+        "image": "assets/45_midori.png",
+        "name": "Midori Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "46",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #46 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225995803200061441",
+        "image": "assets/46_asuka.png",
+        "name": "Asuka Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "47",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #47 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225996902711689217",
+        "image": "assets/47_mari.png",
+        "name": "Mari Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "48",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #48 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225998002223316993",
+        "image": "assets/48_tsuki_variant.png",
+        "name": "Tsuki Gan (Variant)",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "49",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #49 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225999101734944769",
+        "image": "assets/49_nana.png",
+        "name": "Nana Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #4 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225949623711694849",
+        "image": "assets/4_ane.png",
+        "name": "Ane Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "50",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #50 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226000201246572545",
+        "image": "assets/50_kanna_black_hair.png",
+        "name": "Kanna Gan (Black Hair)",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "51",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #51 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226001300758200321",
+        "image": "assets/51_aina.png",
+        "name": "Aina Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "52",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #52 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226004599293083649",
+        "image": "assets/52_airi_seia.png",
+        "name": "Airi Gan (Seia)",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "53",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #53 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226005698804711425",
+        "image": "assets/53_kasumi.png",
+        "name": "Kasumi Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "54",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #54 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226006798316339201",
+        "image": "assets/54_nanako.png",
+        "name": "Nanako Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "55",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #55 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226007897827966977",
+        "image": "assets/55_kuvira.png",
+        "name": "Kuvira Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "56",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #56 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226008997339594753",
+        "image": "assets/56_kosuke.png",
+        "name": "Kosuke Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "57",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #57 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226010096851222529",
+        "image": "assets/57_nori.png",
+        "name": "Nori Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "58",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #58 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226011196362850305",
+        "image": "assets/58_fumiko.png",
+        "name": "Fumiko Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "59",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #59 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226012295874478081",
+        "image": "assets/59_kanna.png",
+        "name": "Kanna Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
                 "value": "Sensitive"
             }
         ]
     },
     {
         "id": "5",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #5 (out of 32) <br> Overall: **#5** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225952922246578177",
-        "image": "s4xIk-JsRaP0aZTKvfWaydAXAQROuR82DjhLzsjR03F-H8UPep_E4ORUiVoG_TRBTTiQ-1-KkpMawAjIvd9ivIA4Q-0vhqGD5YVuCQ",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #5 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225952922246578177",
+        "image": "assets/5_akua.png",
         "name": "Akua Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
                 "value": "Inventive"
             },
             {
-                "trait_type": "conscientiousness",
+                "trait_type": "Conscientiousness",
                 "value": "Efficient"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Outgoing"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
                 "value": "Friendly"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "60",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #60 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226013395386105857",
+        "image": "assets/60_ayumu.png",
+        "name": "Ayumu Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "61",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #61 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226014494897733633",
+        "image": "assets/61_chie.png",
+        "name": "Chie Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "62",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #62 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226015594409361409",
+        "image": "assets/62_kaede.png",
+        "name": "Kaede Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "63",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #63 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226016693920989185",
+        "image": "assets/63_keiko.png",
+        "name": "Keiko Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "64",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #64 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226017793432616961",
+        "image": "assets/64_kumo.png",
+        "name": "Kumo Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "65",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #65 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226018892944244737",
+        "image": "assets/65_aoi.png",
+        "name": "Aoi Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "66",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #66 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226019992455872513",
+        "image": "assets/66_saki.png",
+        "name": "Saki Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "67",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #67 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226021091967500289",
+        "image": "assets/67_riku.png",
+        "name": "Riku Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "68",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #68 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226022191479128065",
+        "image": "assets/68_naomi.png",
+        "name": "Naomi Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "69",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #69 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226023290990755841",
+        "image": "assets/69_usagi.png",
+        "name": "Usagi Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
                 "value": "Nervous"
             }
         ]
     },
     {
         "id": "6",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #6 (out of 32) <br> Overall: **#6** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225954021758205953",
-        "image": "etMtIMb5vkf1IuWQY-Jz6cmJVDOIU746Nx-poZt_W7BHEE2QUpIrpre8JasVi69lIJq7tZ16smZlQAfJGlS5VcWM0QnpBUuS6zowBQ",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #6 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225954021758205953",
+        "image": "assets/6_tsuki.png",
         "name": "Tsuki Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
                 "value": "Inventive"
             },
             {
-                "trait_type": "conscientiousness",
+                "trait_type": "Conscientiousness",
                 "value": "Organised"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Energetic"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
                 "value": "Detached"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
                 "value": "Confident"
             }
         ]
     },
     {
-        "id": "7",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #7 (out of 32) <br> Overall: **#7** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225955121269833729",
-        "image": "XjSR_H8Z97AcbzqVBHfC39_QgoA-ptgD-maQbpaZYIvjkGk_r1CAzkTXT0SY9rV4MVoKEVKmuwFYMPW8F8Q5ZjGiwBAz33NU6YXJTA",
-        "name": "Yuri Gan",
+        "id": "70",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #70 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226024390502383617",
+        "image": "assets/70_yumeka.png",
+        "name": "Yumeka Gan",
         "attributes": [
             {
-                "trait_type": "openness",
+                "trait_type": "Openness",
                 "value": "Curious"
             },
             {
-                "trait_type": "conscientiousness",
-                "value": "Organised"
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
                 "value": "Outgoing"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
                 "value": "Challenging"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "71",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #71 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226025490014011393",
+        "image": "assets/71_yuuko.png",
+        "name": "Yuuko Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
                 "value": "Secure"
             }
         ]
     },
     {
-        "id": "8",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #8 (out of 32) <br> Overall: **#8** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225950723223322625",
-        "image": "eoPTVExS-ej6hgDcoxrDqJO0lRJRMkad5ToQV2Moj1WVbVoXLSEJtT8LfSIhOVGme49q3ocO7edIpgkp0RqQtemyREE_3xkq2Mju",
-        "name": "Shiro Gan",
+        "id": "72",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #72 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226026589525639169",
+        "image": "assets/72_karin.png",
+        "name": "Karin Gan",
         "attributes": [
             {
-                "trait_type": "openness",
-                "value": "Consistent"
+                "trait_type": "Openness",
+                "value": "Inventive"
             },
             {
-                "trait_type": "conscientiousness",
-                "value": "Careless"
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
             },
             {
-                "trait_type": "extraversion",
-                "value": "Reserved"
+                "trait_type": "Extraversion",
+                "value": "Solitary"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "73",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #73 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226027689037266945",
+        "image": "assets/73_tsuki_pigtail.png",
+        "name": "Tsuki Gan (Pigtail)",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
                 "value": "Friendly"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "74",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #74 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226037584641916929",
+        "image": "assets/74_rai.png",
+        "name": "Rai Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "75",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #75 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226036485130289153",
+        "image": "assets/75_yuriko.png",
+        "name": "Yuriko Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
                 "value": "Confident"
             }
         ]
     },
     {
-        "id": "9",
-        "description": "### Information <br> Copies: 1 <br> Gen 1 Gan Chan: #9 (out of 32) <br> Overall: **#9** <br>",
-        "external_url": "0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225960618827972609",
-        "image": "RsQWlp_zu6yxkQ4Ku6Jbp9OmjtQbdPFGvkrBo0ZUgB2b2zsIqcWom-tzufa7x3QKRJjsLrmmyBuGWRb-C67YVzHVY_aT_DpSmvcPaw",
-        "name": "Sumire Gan",
+        "id": "76",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #76 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226030987572150273",
+        "image": "assets/76_seira.png",
+        "name": "Seira Gan",
         "attributes": [
             {
-                "trait_type": "openness",
-                "value": "Consistent"
+                "trait_type": "Openness",
+                "value": "Cautious"
             },
             {
-                "trait_type": "conscientiousness",
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "77",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #77 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226032087083778049",
+        "image": "assets/77_tomoko.png",
+        "name": "Tomoko Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
                 "value": "Efficient"
             },
             {
-                "trait_type": "extraversion",
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "78",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #78 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226033186595405825",
+        "image": "assets/78_koharu.png",
+        "name": "Koharu Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "79",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #79 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226034286107033601",
+        "image": "assets/79_sakyu_frost_dye.png",
+        "name": "Sakyu Gan (Frost Dye)",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #7 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225955121269833729",
+        "image": "assets/7_yuri.png",
+        "name": "Yuri Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "80",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #80 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226035385618661377",
+        "image": "assets/80_yuki.png",
+        "name": "Yuki Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "81",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #81 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226074968037261313",
+        "image": "assets/81_hisa.png",
+        "name": "Hisa Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
                 "value": "Solitary"
             },
             {
-                "trait_type": "agreeableness",
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "82",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #82 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226040883176800257",
+        "image": "assets/82_miki.png",
+        "name": "Miki Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
                 "value": "Detached"
             },
             {
-                "trait_type": "neuroticism",
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "83",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #83 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226041982688428033",
+        "image": "assets/83_taka.png",
+        "name": "Taka Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "84",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #84 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226043082200055809",
+        "image": "assets/84_chuya.png",
+        "name": "Chuya Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "85",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #85 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226044181711683585",
+        "image": "assets/85_bakuha.png",
+        "name": "Bakuha Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "86",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #86 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226045281223311361",
+        "image": "assets/86_mirai.png",
+        "name": "Mirai Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "87",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #87 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226046380734939137",
+        "image": "assets/87_harumi.png",
+        "name": "Harumi Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "88",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #88 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226047480246566913",
+        "image": "assets/88_gina.png",
+        "name": "Gina Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "89",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #89 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226048579758194689",
+        "image": "assets/89_chiyo.png",
+        "name": "Chiyo Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Cautious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #8 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225950723223322625",
+        "image": "assets/8_shiro.png",
+        "name": "Shiro Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "90",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #90 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226049679269822465",
+        "image": "assets/90_akiko.png",
+        "name": "Akiko Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "91",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #91 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226050778781450241",
+        "image": "assets/91_nao.png",
+        "name": "Nao Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "92",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #92 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226051878293078017",
+        "image": "assets/92_fuji.png",
+        "name": "Fuji Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "93",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #93 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226052977804705793",
+        "image": "assets/93_hyeon.png",
+        "name": "Hyeon Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Challenging"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "94",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #94 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226054077316333569",
+        "image": "assets/94_chiako.png",
+        "name": "Chiako Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Organised"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "95",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #95 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226055176827961345",
+        "image": "assets/95_etsu.png",
+        "name": "Etsu Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Energetic"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Nervous"
+            }
+        ]
+    },
+    {
+        "id": "96",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #96 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226056276339589121",
+        "image": "assets/96_yumi.png",
+        "name": "Yumi Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Secure"
+            }
+        ]
+    },
+    {
+        "id": "97",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #97 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226057375851216897",
+        "image": "assets/97_sakyu_purple_dye.png",
+        "name": "Sakyu Gan (Purple Dye)",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Compassionate"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "98",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #98 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226058475362844673",
+        "image": "assets/98_sara_child.png",
+        "name": "Sara Gan (Child)",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Inventive"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Easy-going"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Outgoing"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Confident"
+            }
+        ]
+    },
+    {
+        "id": "99",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #99 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266226059574874472449",
+        "image": "assets/99_ichika.png",
+        "name": "Ichika Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Curious"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Careless"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Reserved"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Friendly"
+            },
+            {
+                "trait_type": "Neuroticism",
+                "value": "Sensitive"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "description": "### Information <br> Copies: 1 <br> Gan Chan: #9 <br>",
+        "external_url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/971463808751771899215493340564517295695129641530383849266225960618827972609",
+        "image": "assets/9_sumire.png",
+        "name": "Sumire Gan",
+        "attributes": [
+            {
+                "trait_type": "Openness",
+                "value": "Consistent"
+            },
+            {
+                "trait_type": "Conscientiousness",
+                "value": "Efficient"
+            },
+            {
+                "trait_type": "Extraversion",
+                "value": "Solitary"
+            },
+            {
+                "trait_type": "Agreeableness",
+                "value": "Detached"
+            },
+            {
+                "trait_type": "Neuroticism",
                 "value": "Secure"
             }
         ]
