@@ -18,35 +18,37 @@
 </head>
 <body>
     <div v-bind:class="[isDarkmode ? 'bg-dark' : '']" id="app">
-        <div class="nav-bar pt-4">
+        <div v-bind:class="[isDarkmode ? 'bg-dark-secondary' : 'bg-secondary', nav-bar, mt-4]">
             <div class="container py-2">
-                <a class="p-2" v-on:click="darkmode"><img src="assets/moon.svg" height="45" /></a>
-                <a class="p-2 navlink" href="#" target="_blank"><img src="assets/opensea.svg" height="40" /></a>
-                <a class="p-2 navlink"  href="#explore">Explore</a>
-                <a class="p-2 navlink" href="#roadmap">Roadmap</a>
+                <a class="p-1 navlink" v-on:click="darkmode"><span class="iconify-inline text-primary" data-icon="clarity:moon-solid"></span></a>
+                <!-- <a class="p-1 navlink" href="#" target="_blank"><img src="assets/opensea.svg" height="24" /></a> -->
+                <a class="p-1 navlink"  href="#explore">Explore</a>
+                <a class="p-1 navlink" href="#roadmap">Roadmap</a>
             </div>
         </div>
 
-        <div class="container">
-        <section class="header">
-            <div class="row">
+        <div class="">
+        <section v-bind:class="[isDarkmode ? 'bg-dark-secondary' : 'bg-secondary']">
+            <div class="container">
+            <div class="row g-0">
                 <div class="col-md-6">
-                    <div class="center">
+                    <div class="v-align container">
                         <div class="container"> 
-                            <h5 class="text-bold color-primary">Gan Chan</h5>
-                            <h1 class="header-title text-bolder">
-                                {{ metadata.length }} Gan Chans minted on the
-                                Polygon Animeverse!
+                            <div class="header-title text-bold text-primary my-4">Gan Chan</div>
+                            <h1 class="text-bolder">
+                                {{ metadata.length }} Gan Chans currently in the Polygon Network
                             </h1>
+                            <a class="p-2" v-on:click="darkmode"><img src="assets/moon.svg" height="45" /></a>
 
                             <div class="text-bold mt-3">
-                                Get your 1/1 1920 x 1920 px of the most kawaii and cheapest
-                                Anime NFT now available on OpenSea.
+                                ガンちゃん | 
+
+                                A selection of uniquely generated 1/1 avatars of Anime NFTs designed 
+                                by <a href="https://twitter.com/NFTGanChans" target="_blank">@NFTGanChans</a>. 
                             </div>
 
-                            <div class="mt-2 mb-2">
+                            <div class="text-center my-4">
                                 <a class="btn" href="https://opensea.io/collection/gan-chan" role="button" target="_blank">OpenSea</a>
-                                <a class="btn" href="https://twitter.com/NFTGanChans" role="button" target="_blank">Twitter</a>
                             </div>
                         </div>
                     </div>
@@ -54,92 +56,132 @@
                 <div class="col-md-6">
                     <div class="container">
                         <div class="m-3">
-                            <!-- <img class="slideshow img-fluid rounded-3" :src="currentImg"/> -->
-                            <img class="img-fluid explore-image" :src="currentImg">
+                            <!-- <img class="img-fluid mx-auto d-block rounded-3" src="assets/tsuki.png" width="80%"/> -->
+                            <img class="img-fluid mx-auto d-block rounded-3" :src="currentImg" width="80%"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path :fill="isDarkmode ? '#1F1B24' : '#F3F4F5'" fill-opacity="1" d="M0,32L40,58.7C80,85,160,139,240,170.7C320,203,400,213,480,186.7C560,160,640,96,720,74.7C800,53,880,75,960,74.7C1040,75,1120,53,1200,48C1280,43,1360,53,1400,58.7L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
 
+        <section class="container">
+            <div class="row">
+                <div v-for="item in showcase" class="col-md-3">
+                    <a class="a-clear" :href="item.external_url" target="_blank">
+                        <div class="mb-4">
+                            <img class="img-fluid my-2" data-aos="fade-up" :src="item.image" />
+                            <div class="text-bold">{{ item.name }}</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path :fill="isDarkmode ? '#1F1B24' : '#F3F4F5'" fill-opacity="1" d="M0,256L40,234.7C80,213,160,171,240,170.7C320,171,400,213,480,197.3C560,181,640,107,720,117.3C800,128,880,224,960,256C1040,288,1120,256,1200,250.7C1280,245,1360,267,1400,277.3L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <section v-bind:class="[isDarkmode ? 'bg-dark-secondary' : 'bg-secondary']">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="mx-auto d-block rounded-3" data-aos="fade-up-right" src="assets/sakyu_adult.png" width="80%">
+                    </div>
+                    <div class="col-md-6 p-5">
+                        <h2>AnimeVerse <span class="text-primary">X</span> MetaVerse</h2>
+                        <div>
+                            Gan Chans is a collection of 256 <b>AI generated</b> anime avatar NFTs on the <b>Polygon blockchain</b>. The project
+                            was created with the intention of helping create an environment where anime and metaverse could  . The process at which
+                            a Gan Chan is created is generated by an GAN model from a collection of default anime images. The selection process occurs 
+                            with a manual process of picking the best and suitable avatars to be brought to live in the Polgyon blockchain.  
+                            <br /><br />
+                            Each Gan Chan is generated is very inclusive accounting for age, gender, and personlity traits. They are known for their
+                            <b>kawaii</b> appearances and high quality persona. With unique looks and being in a 1920 x 1920 dimension PNG portait, you 
+                            can make any one of the Gan Chan your new waifus :).
+                            <br /><br />
+                            Meet the very first Gan Chan, <b>Sakyu Gan</b>. She is the big sister of the Gan Chan family and innately the most 
+                            trustworthy. She currently resides in PolyJapan. Polygon Virtual world, where all other Gan Chan resides.
+                        <div>
+                            <a class="btn mt-3" href="https://twitter.com/NFTGanChans/status/1449866946334265346" role="button" target="_blank">Tweet</a>
+                            <a class="btn mt-3" :href="'https://opensea.io/assets/matic/' + explore.ganChan.external_url" role="button" target="_blank">OpenSea</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path :fill="isDarkmode ? '#1F1B24' : '#F3F4F5'" fill-opacity="1" d="M0,256L40,234.7C80,213,160,171,240,170.7C320,171,400,213,480,197.3C560,181,640,107,720,117.3C800,128,880,224,960,256C1040,288,1120,256,1200,250.7C1280,245,1360,267,1400,277.3L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
 
-        <section class="my-5">
-            <div class="row">
-                <div v-for="item in showcase" class="col-md-3">
-                    <img class="img-fluid mb-4" data-aos="fade-up" :src="item.image" />
-                </div>
-            </div>
-        </section>
-
-        <section class="my-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="meet-sakyu mx-auto d-block" data-aos="fade-up-right" src="assets/sakyu_adult.png">
-                </div>
-                <div class="col-md-6">
-                    <h2>Meet Sakyu</h2>
-                    <div>
-                        Sakyu Gan is the representative of Gan Chans. She is the first
-                        AI generated Gan. She is the most trusted sister out of the Gan Chan
-                        and the most intelligent. She currently resides in Japan,
-                    </div>
-
-                    For our release of Gan Chan, we are offering exclusive Sakyu Gan NFT for free. I graditude for the supporting us!
-                    Instructions to get one are in the tweet below.
-                    <div>
-                        <a class="btn mt-3" href="https://twitter.com/NFTGanChans/status/1449866946334265346" role="button" target="_blank">Tweet</a>
-                        <a class="btn mt-3" :href="'https://opensea.io/assets/matic/' + explore.ganChan.external_url" role="button" target="_blank">OpenSea</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="explore" class="my-5">
+        <section id="explore" class="container my-5">
             <div class="row">
                 <div class="col-md-6">
                     <h2 class="text-center">Explore</h2>
                     <input class="w-100 rounded-3" v-model="explore.input" type="text" placeholder="Enter Id or Name">
 
                     <div class="container explore">                        
-
-                        <div class="font-size-secondary text-center mt-3 mb-3">👋 {{ explore.greeting }} I'm <strong>{{ explore.ganChan.name }}</strong>! <strong>#{{ explore.ganChan.id }}</strong> in the Gan Chan Collection.</div>
+                        <div class="font-size-secondary text-center mb-3">👋 {{ explore.greeting }} I'm <strong>{{ explore.ganChan.name }}</strong>! <strong>#{{ explore.ganChan.id }}</strong> in the Gan Chan Collection.</div>
                         <div class="card border-2 rounded-3 m-1" v-for="item in explore.ganChan.attributes">
                             <span>
-                                <div class="color-primary text-capitalize">{{ item.trait_type }}</div>
+                                <div class="text-primary text-capitalize">{{ item.trait_type }}</div>
                                 <div class="explore-value text-bold">{{ item.value }}</div>
                             </span>
                         </span>
                     </div>
                         <div class="text-center mt-4">
-                            Current Price: 0.025 ETH
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <tr class="">
+                                        <td class="text-bold text-center">Address</td>
+                                        <td>{{ explore.ganChan.external_url.split('/').at(-1).slice(0, 9) }}...</td>
+                                    </tr>
+                                    <tr class="">
+                                        <td class="text-bold text-center">Token ID:</td>
+                                        <td>{{ explore.ganChan.id }}</td>
+                                    </tr>
+                                    <tr class="">
+                                        <td class="text-bold text-center">Standard:</td>
+                                        <td>1155</td>
+                                    </tr>
+                                    <tr class="">
+                                        <td class="text-bold text-center">Blockchain:</td>
+                                        <td><span class="iconify-inline" data-icon="cryptocurrency:matic"></span></td>
+                                    </tr>
+                                    <tr class="">
+                                        <td class="text-bold text-center">Current Price [ETH]:</td>
+                                        <td>0.025 <span class="iconify-inline" data-icon="logos:ethereum"></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
                             <a class="btn w-100 mt-3" :href="explore.ganChan.external_url" role="button" target="_blank">View on OpenSea</a>
                         </div>    
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="m-5">
-                        <img class="img-fluid explore-image" :src="explore.ganChan.image" alt="">
+                    <div class="text-center">
+                        <img class="img-fluid mx-auto d-block rounded-3" :src="explore.ganChan.image" width="75%">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="roadmap" class="my-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="meet-sakyu mx-auto d-block" data-aos="fade-up-right" src="assets/tsuki.png">
-                </div>
-                <div class="col-md-6">
-                    <h2>RoadMap</h2>
-                    <div class="mt-3 mb-4" v-for="goal in roadmap">
-                        <h4 class="text-bold"><span class="color-primary">{{ goal.percent }}%</span> Sold</h4>
-                        <div>{{ goal.text }}</div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path :fill="isDarkmode ? '#1F1B24' : '#F3F4F5'" fill-opacity="1" d="M0,32L40,74.7C80,117,160,203,240,218.7C320,235,400,181,480,176C560,171,640,213,720,229.3C800,245,880,235,960,202.7C1040,171,1120,117,1200,112C1280,107,1360,149,1400,170.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <section id="roadmap" v-bind:class="[isDarkmode ? 'bg-dark-secondary' : 'bg-secondary']">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="img-fluid mx-auto d-block rounded-3" data-aos="fade-up-right" src="assets/tsuki.png" width="80%">
+                    </div>
+                    <div class="col-md-6">
+                        <h2>RoadMap</h2>
+                        <div class="mt-3 mb-4" v-for="goal in roadmap">
+                            <h4 class="text-bold"><span class="text-primary">{{ goal.percent }}%</span> Sold</h4>
+                            <div>{{ goal.text }}</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         </div>
-
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path :fill="isDarkmode ? '#1F1B24' : '#F3F4F5'" fill-opacity="1" d="M0,192L40,186.7C80,181,160,171,240,186.7C320,203,400,245,480,256C560,267,640,245,720,213.3C800,181,880,139,960,106.7C1040,75,1120,53,1200,85.3C1280,117,1360,203,1400,245.3L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        
         <footer class="">
             <div class="links" v-for="link in links">
                 <a :href="link.url" target="_blank">
