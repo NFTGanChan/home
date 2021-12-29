@@ -17,15 +17,41 @@
     <title>Gan Chan</title>
 </head>
 <body>
+
+    <!-- <div>
+        Openness
+        <span class="iconify-inline" data-icon="mdi:human"></span>
+
+        Agreeable
+        <span class="iconify-inline" data-icon="mdi:human-greeting-proximity"></span>
+
+        Extraversion
+        <span class="iconify-inline" data-icon="mdi:human-queue"></span>
+
+        Conscientiousness
+        <span class="iconify-inline" data-icon="mdi:human-male"></span>
+
+        Neuroticism 
+        <span class="iconify-inline" data-icon="mdi:human-handsup"></span>
+
+        <div class="row">
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid mx-auto d-block rounded-3" src="assets/101_yeaji.png" width="75%"/>
+            </div>
+        </div>
+    </div> -->
+
     <div v-bind:class="[isDarkmode ? 'bg-dark' : '']" id="app">
-        <div v-bind:class="[isDarkmode ? 'bg-dark-secondary' : 'bg-secondary', nav-bar, mt-4]">
+        <!-- <div v-bind:class="[isDarkmode ? 'bg-dark-secondary' : 'bg-secondary', nav-bar, mt-4]">
             <div class="container py-2">
                 <a class="p-1 navlink" v-on:click="darkmode"><span class="iconify-inline text-primary" data-icon="clarity:moon-solid"></span></a>
-                <!-- <a class="p-1 navlink" href="#" target="_blank"><img src="assets/opensea.svg" height="24" /></a> -->
                 <a class="p-1 navlink"  href="#explore">Explore</a>
                 <a class="p-1 navlink" href="#roadmap">Roadmap</a>
             </div>
-        </div>
+        </div> -->
 
         <div class="">
         <section v-bind:class="[isDarkmode ? 'bg-dark-secondary' : 'bg-secondary']">
@@ -38,7 +64,7 @@
                             <h1 class="text-bolder">
                                 {{ metadata.length }} Gan Chans currently in the Polygon Network
                             </h1>
-                            <a class="p-2" v-on:click="darkmode"><img src="assets/moon.svg" height="45" /></a>
+                            <a class="p-2" v-on:click="darkmode"><img src="assets/logos/moon.svg" height="45" /></a>
 
                             <div class="text-bold mt-3">
                                 ガンちゃん | 
@@ -57,7 +83,7 @@
                     <div class="container">
                         <div class="m-3">
                             <!-- <img class="img-fluid mx-auto d-block rounded-3" src="assets/tsuki.png" width="80%"/> -->
-                            <img class="img-fluid mx-auto d-block rounded-3" :src="currentImg" width="80%"/>
+                            <img class="img-fluid mx-auto d-block rounded-3" :src="'assets/gan_chans/' + currentImg" width="80%"/>
                         </div>
                     </div>
                 </div>
@@ -68,13 +94,15 @@
 
         <section class="container">
             <div class="row">
-                <div v-for="item in showcase" class="col-md-3">
+                <div v-for="item in showcase" class="col-md-3 py-3">
+                    <div :class="['border-' + item.rarity.toLowerCase(), 'rounded-4']">
                     <a class="a-clear" :href="item.external_url" target="_blank">
                         <div class="mb-4">
-                            <img class="img-fluid my-2" data-aos="fade-up" :src="item.image" />
-                            <div class="text-bold">{{ item.name }}</div>
+                            <img class="img-fluid" data-aos="fade-up" :src="'assets/gan_chans/' + item.image" />
+                            <div class="text-bold container py-4">{{ item.name }}</div>
                         </div>
                     </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -111,14 +139,15 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path :fill="isDarkmode ? '#1F1B24' : '#F3F4F5'" fill-opacity="1" d="M0,256L40,234.7C80,213,160,171,240,170.7C320,171,400,213,480,197.3C560,181,640,107,720,117.3C800,128,880,224,960,256C1040,288,1120,256,1200,250.7C1280,245,1360,267,1400,277.3L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
 
         <section id="explore" class="container my-5">
+            <h2 class="text-center">COLLECT THEM ALL</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <h2 class="text-center">Explore</h2>
+                <div class="col-lg-6">
                     <input class="w-100 rounded-3" v-model="explore.input" type="text" placeholder="Enter Id or Name">
 
-                    <div class="container explore">                        
-                        <div class="font-size-secondary text-center mb-3">👋 {{ explore.greeting }} I'm <strong>{{ explore.ganChan.name }}</strong>! <strong>#{{ explore.ganChan.id }}</strong> in the Gan Chan Collection.</div>
-                        <div class="card border-2 rounded-3 m-1" v-for="item in explore.ganChan.attributes">
+                    <div class="container explore">          
+                        {{ explore.ganChan.rarity }}              
+                        <div class=" text-center mb-3">👋 {{ explore.greeting }} I'm <strong>{{ explore.ganChan.name }}</strong>! <strong>#{{ explore.ganChan.id }}</strong> in the Gan Chan Collection.</div>
+                        <div class="card border-2 rounded-3 m-1 p-2" v-for="item in explore.ganChan.attributes">
                             <span>
                                 <div class="text-primary text-capitalize">{{ item.trait_type }}</div>
                                 <div class="explore-value text-bold">{{ item.value }}</div>
@@ -150,13 +179,13 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <a class="btn w-100 mt-3" :href="explore.ganChan.external_url" role="button" target="_blank">View on OpenSea</a>
                         </div>    
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="text-center">
-                        <img class="img-fluid mx-auto d-block rounded-3" :src="explore.ganChan.image" width="75%">
+                        <img :class="['border-' + explore.ganChan.rarity.toLowerCase(), 'img-fluid', 'mx-auto', 'd-block', 'rounded-3']" :src="'assets/gan_chans/' + explore.ganChan.image" width="75%">
+                        <a class="btn w-75 mt-3" :href="explore.ganChan.external_url" role="button" target="_blank">View on OpenSea</a>
                     </div>
                 </div>
             </div>
@@ -167,10 +196,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="img-fluid mx-auto d-block rounded-3" data-aos="fade-up-right" src="assets/tsuki.png" width="80%">
+                        <img class="img-fluid mx-auto d-block rounded-4 animate-hover" data-aos="fade-up-right" src="assets/logos/tsuki.png" width="80%">
                     </div>
                     <div class="col-md-6">
-                        <h2>RoadMap</h2>
+                        <h2 class="text-center">ROADMAP</h2>
                         <div class="mt-3 mb-4" v-for="goal in roadmap">
                             <h4 class="text-bold"><span class="text-primary">{{ goal.percent }}%</span> Sold</h4>
                             <div>{{ goal.text }}</div>
@@ -182,10 +211,28 @@
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path :fill="isDarkmode ? '#1F1B24' : '#F3F4F5'" fill-opacity="1" d="M0,192L40,186.7C80,181,160,171,240,186.7C320,203,400,245,480,256C560,267,640,245,720,213.3C800,181,880,139,960,106.7C1040,75,1120,53,1200,85.3C1280,117,1360,203,1400,245.3L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
         
-        <footer class="">
+        <section class="container">
+            <h2 class="text-center">FOUND US ON</h2>
+            <div class="row">
+                <div v-for="link in foundUs" class="col-md-6">
+                    <div class="text-center p-5">
+                        <img class="img-fluid w-50" :src="'assets/logos/'+ link.icon + '_' + (isDarkmode ? 'light' : 'dark') + '.png'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container w-75">
+            <h2 class="text-center py-5">DONATE TO GAN CHAN DEVS</h2>
+            <div class="addr pointer border-common text-bold p-2 px-3 rounded-4">
+                0x0225d43b588e69154ec98f710249d9ff2aed4527
+            </div>
+        </section
+        >
+        <footer class="text-center py-5">
             <div class="links" v-for="link in links">
                 <a :href="link.url" target="_blank">
-                    <img class="icon" :src="link.icon" height="40" />
+                    <img class="icon" :src="'assets/logos/' + link.icon" height="40" />
                 </a>
             </div>
         </footer>
@@ -240,23 +287,33 @@
                 ],
 
                 links: [
-                    { url: "https://opensea.io/collection/gan-chan", icon: "assets/opensea.svg" },
-                    { url: "https://twitter.com/NFTGanChans", icon: "assets/twitter.svg" },
-                    { url: "https://www.reddit.com/user/Gan-Chan", icon: "assets/reddit.svg" }
+                    { url: "https://opensea.io/collection/gan-chan", icon: "opensea.svg" },
+                    { url: "https://twitter.com/NFTGanChans", icon: "twitter.svg" },
+                    { url: "https://www.reddit.com/user/Gan-Chan", icon: "reddit.svg" }
+                ],
+
+                foundUs: [
+                    { url: "https://opensea.io/collection/gan-chan", icon: "opensea" },
+                    { url: "https://polygonscan.com/address/0x2953399124f0cbb46d2cbacd8a89cf0599974963", icon: "polygon" },
                 ]
             },
             mounted: async function() {
                 let req = await fetch("assets/metadata.json");
                 this.metadata = await req.json();
 
+                req = await fetch("assets/rarity.json");
+                this.rarity = await req.json();
+
                 this.startSlide();
 
                 for(i of [...Array(8).keys()]) {
-                    console.log(this.metadata[Math.floor(Math.random()*this.metadata.length)]);
-                    this.showcase.push(this.metadata[Math.floor(Math.random()*this.metadata.length)])
+                    // console.log(this.metadata[Math.floor(Math.random()*this.metadata.length)]);
+                    let g = this.metadata[Math.floor(Math.random()*this.metadata.length)];
+                    this.showcase.push(this.foundRarity(g));
                 }
 
                 this.explore.ganChan = this.showcase[0];
+
             },
             methods: {
                 startSlide: function() {
@@ -268,6 +325,15 @@
                 darkmode: function() {
                     this.isDarkmode = !this.isDarkmode;
                     console.log(this.isDarkmode);
+                },
+                foundRarity: function(ganChan) {
+                    for (let i of ganChan.attributes) {
+                        if(i.trait_type == 'Rarity') {
+                            ganChan['rarity'] = i.value;
+                        }
+                    }
+
+                    return ganChan;
                 }
             },
             computed: { },
@@ -281,7 +347,7 @@
                         if(i.id == newVal || i.name.toLowerCase().includes(newVal.toLowerCase())) {
                             found = true;
                             this.explore.greeting = this.explore.greetingList[Math.floor(Math.random()*this.explore.greetingList.length)];
-                            this.explore.ganChan = i;
+                            this.explore.ganChan = this.foundRarity(i);
                             break;
                         }
                     }
@@ -289,6 +355,9 @@
                 }
             }
         })
+
+        
+
     </script>
 </body>
 </html>
