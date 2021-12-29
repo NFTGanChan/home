@@ -1,0 +1,32 @@
+{
+    "Openness": {
+        "Cautious": 0.15178571428571427,
+        "Consistent": 0.29464285714285715,
+        "Inventive": 0.2767857142857143,
+        "Curious": 0.2767857142857143
+    },
+    "Agreeableness": {
+        "Friendly": 0.26785714285714285,
+        "Detached": 0.2767857142857143,
+        "Challenging": 0.17857142857142858,
+        "Compassionate": 0.2767857142857143
+    },
+    "Extraversion": {
+        "Solitary": 0.25892857142857145,
+        "Outgoing": 0.2857142857142857,
+        "Energetic": 0.16964285714285715,
+        "Reserved": 0.2857142857142857
+    },
+    "Conscientiousness": {
+        "Organised": 0.2767857142857143,
+        "Careless": 0.24107142857142858,
+        "Easy-going": 0.22321428571428573,
+        "Efficient": 0.25892857142857145
+    },
+    "Neuroticism": {
+        "Secure": 0.3125,
+        "Confident": 0.23214285714285715,
+        "Sensitive": 0.23214285714285715,
+        "Nervous": 0.22321428571428573
+    }
+}
