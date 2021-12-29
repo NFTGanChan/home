@@ -13,17 +13,37 @@
 .bg-secondary { background-color: var(--secondary) !important; }
 .bg-dark {  background-color: var(--main-bg) !important;  color: white !important; }
 .bg-dark-secondary { background-color: var(--bg-dark-secondary) !important; }
-
+.rounded-4 { border-radius: 16px !important; }
 .text-bold { font-weight: 700; }
 .text-bolder { font-weight: 900; }
 .py-5 { padding-top: 7.5rem !important; }
+.pointer {cursor: pointer;}
+.addr { overflow: hidden; color: black; }
 h1, h2, h3, h4, h4 {
     font-weight: 700;
 }
 
 .v-align { padding: 40px 0; }
-.a-clear { text-decoration: none; color: inherit; }
+.a-clear { text-decoration: none; color: black; }
 a:hover { color: var(--main-color); }
+
+.border-common { 
+    box-shadow: rgb(211 211 211) 0px 3px 23px -3px;
+    background-color: white;
+}
+.border-rare { 
+    box-shadow: rgb(255 175 200) 0px 3px 23px -3px;
+    background-color: rgb(255, 237, 243);
+}
+.border-epic { 
+    box-shadow: rgb(206 169 255) 0px 3px 23px -3px;
+    background-color: rgb(243, 235, 255);
+}
+.border-legendary { 
+    box-shadow: rgb(255 197 9 / 62%) 0px 3px 23px -3px; 
+    background-color: rgb(255, 250, 232);
+}
+
 .navlink {
     text-decoration: none;
     color: var(--main-color);
@@ -104,12 +124,12 @@ input:focus {
     border-color: var(--main-color);
 }
 
-.explore-value { font-size: 32px; }
+.explore-value { font-size: 24px; }
 
 .card { 
     display: inline-block;
     background-color: inherit;
-    padding: 1rem 1rem;
+    /* padding: 1rem 1rem; */
     color: inherit;
     border: 2px solid #eff2f5;
 }
@@ -124,3 +144,15 @@ input:focus {
 .header { margin: 32px 0; }
 img { border-radius: 16px; }
 footer { padding: 16px; }
+
+.animate-hover {  
+    animation: MoveUpDown 6s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+  
+@keyframes MoveUpDown {
+0%, 100% { bottom: 0; }
+50% { bottom: 25px; }
+}
